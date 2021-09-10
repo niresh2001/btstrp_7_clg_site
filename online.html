@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .header{
+            font-size:12.5px;
+        }
+    </style>   
+</head>
+<body>
+    <div class="top-container" style="padding-bottom:3px">
+        <div class="row">
+          <div class="col-md-1" style="text-align:right; background-color:#16336d;" ></div>
+          <div class="col-md-10" style="text-align:center; background-color:#16336d;;" >
+            <img src="header.png" class="img-fluid">
+          </div>
+          <div class="col-md-1" style="text-align:right; background-color:#16336d;" ></div>
+              </div>  
+     </div>
+
+
+     <div class="header " id="mynav">
+        <nav id="navbar" class="navbar navbar-expand-md  navbar-dark" style="background-color:#16336d;color:white;">
+                    <a class="navbar-brand" href="#"></a>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                              
+                                <a class="nav-link" href="index.html"> <span style="background-color:white; color:blue;border: 3px solid rgb(110, 110, 76);">Home</span>  <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               About Us
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">About KEC</a></li>
+                                    <li><a class="dropdown-item" href="#">Vision Mission &amp; Quality Policy </a></li>
+                                    <li><a class="dropdown-item" href="#">KVITT Office Bearers </a></li>
+                                    <li><a class="dropdown-item" href="#">Head of the Institution  </a></li>
+                                    <li><a class="dropdown-item" href="#">Governing Council </a></li>
+                                    <li><a class="dropdown-item" href="#">Academic Council </a></li>
+                                    <li><a class="dropdown-item" href="#">University Ranks </a></li>
+                                    <li><a class="dropdown-item" href="#">Endowments </a></li>
+                                    <li><a class="dropdown-item" href="#">College Rules </a></li>
+      
+      
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Programmes
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+                                    <li><a class="dropdown-item" href="pg.html">Postgraduate </a></li>
+                                    <li><a class="dropdown-item" href="#">Applied Sciences </a></li>
+                                    <li><a class="dropdown-item" href="#">Doctoral Programmes</a></li>
+                                </ul>
+                            </li>
+      
+                            <!-- School and Departments -->
+      
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Departments
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+      
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Engineering</a>
+                                        <ul class="submenu dropdown-menu" >
+                                            <li><a class="dropdown-item" href="#">Civil Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Mechanical Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Mechatronics Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Automobile Engineering </a></li>
+                                            <li><a class="dropdown-item" href="#">Chemical Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Food Technology</a></li>
+                                            <li><a class="dropdown-item" href="#">Electrical and Electronics Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Electronics and Instrumentation Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Electronics and Communication Engineering</a></li>
+                                            <li><a class="dropdown-item" href="#">Computer Science and Engineering</a></li>
+                                              <li><a class="dropdown-item" href="#">Computer Science and Design</a></li>
+                                            <li><a class="dropdown-item" href="#">Information Technology</a></li>
+                                             <li><a class="dropdown-item" href="#">Artificial Intelligence and Machine Learning</a></li>
+                                              <li><a class="dropdown-item" href="#">Artificial Intelligence and Data Science</a></li>
+      
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item " href="#">Management Studies</a>
+                                    </li><li><a class="dropdown-item" href="#">Computer Application</a>
+      
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-toggle " href="#">Computer Technology</a>
+                                        <ul class="dropdown-menu">
+      
+                                            <li><a class="dropdown-item " href="#">Computer Technology - UG</a></li>
+                                            <li><a class="dropdown-item " href="#">Computer Technology - PG</a></li>
+      
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-toggle " href="#">Science and Humanities</a>
+                                        <ul class="dropdown-menu ">
+                                            <li><a class="dropdown-item" href="#"> Mathematics</a></li>
+                                            <li><a class="dropdown-item" href="#">Physics</a></li>
+                                            <li><a class="dropdown-item" href="#">Chemistry</a></li>
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+      
+                                        </ul>
+                                    </li>
+                          </ul>
+                            </li>
+      
+                            <!-- Schools and Department -->
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Accreditation
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Autonomous</a></li>
+                                    <li><a class="dropdown-item" href="#">NBA</a></li>
+                                    <li><a class="dropdown-item" href="#">NAAC </a></li>
+                                    <li><a class="dropdown-item" href="#">NIRF </a></li>
+                                    <li><a class="dropdown-item" href="#">AICTE E&amp;T </a></li>
+                                    <li><a class="dropdown-item" href="#">AICTE MCA </a></li>
+                                    <li><a class="dropdown-item" href="#">AICTE MBA </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item active">
+                                   <a class="nav-link" href="#">Library</a>
+                            </li>
+                            <li class="nav-item active">
+                                   <a class="nav-link" href="#">Facilities</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">COE</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">R&amp;D</a>
+                            </li>
+          <li class="nav-item active">
+                                <a class="nav-link" href="#">IEF</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Placement</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="iipc.html"><span style="background-color:white; color:blue;border: 3px solid rgb(110, 110, 76);">IIPC</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Alumni</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="online.html"><span style="background-color:white; color:blue;border: 3px solid rgb(110, 110, 76);">Online Payment</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+      
+         <li class="nav-item active">
+                                <a class="nav-link" href="contact.html"><span style="background-color:white; color:blue;border: 3px solid rgb(110, 110, 76);">Contact</span></a>
+                            </li>
+                        </ul>
+      
+                    </div>
+                    
+              </nav> 
+           </div>
+
+
+
+
+           <div class="container">
+            <div class="row" style="padding:5px;">
+                            <div class="col-md-12" >
+                                <h5  class="heading">Online Payments</h5>
+                                <p>This online payment system is provided by Kongu Engineering College. Kongu Engineering College may update these terms from time to time and any changes will be effective immediately on being set out here. Please ensure you are aware of the current terms. The country of domicile for Kongu Engineering College is India.</p>
+                            </div>    
+                         
+                            <div class="col-md-12" >
+                                <h5  class="heading">Terms & Conditions </h5>
+                                <p>Please read these terms carefully before using the online payment facility. Using the online payment facility on this website indicates that you accept these terms. If you do not accept these terms do not use this facility. </p>
+                            </div>
+    
+                            <div class="col-md-12 " >
+                                <h6  class="heading" style="color:#c8102e;">All payments are subject to the following conditions:-  </h6>
+                                <p>The description of services of match making are specific to your need, when you log in with your unique password. Normally payment is required in advance (i.e. before you commence your activity). </p>
+                                <p>All Fees quoted are in Indian Rupees. The Kongu Engineering College reserves the right to change the fees at any time.</p>
+                                <div>
+                                    <ul>
+                                            <li> Your payment will normally reach the Kongu Engineering College account to which you are making a payment within two working days. </li>
+                                            <li> We cannot accept liability for a payment not reaching the correct Kongu Engineering College account due to you quoting an incorrect account number or incorrect personal details. Neither can we accept liability if payment is refused or declined by the credit/debit card supplier for any reason. </li>
+                                            <li> If the card supplier declines payment the Kongu Engineering College is under no obligation to bring this fact to your attention. You should check with your bank/credit/debit card supplier that payment has been deducted from your account. </li>
+                                            <li> In no event will the Kongu Engineering College be liable for any damages whatsoever arising out of the use, inability to use, or the results of use of this site, any websites linked to this site, or the materials or information contained at any or all such sites, whether based on warranty, contract, tort or any other legal theory and whether or not advised of the possibility of such damages. </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-12" >
+                                <h5  class="heading">Refund Policy </h5>
+                                <ul>
+                                <li> If the Customer leaves the Kongu Engineering College before they complete their service period, there shall be no entitlement to a refund of paid service fees. </li>
+                                <li> Refunds, if applicable, at the discretion of the Management, will only be made to the debit/credit card used for the original transaction. For the avoidance of doubt nothing in this Policy shall require the Kongu Engineering College to refund the Fees (or part thereof) unless such Fees (or part thereof) have previously been paid. </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12" >
+                                <h5  class="heading">Privacy Policy </h5>
+                                <p> his Privacy Policy applies to all of the products, services and websites offered by Kongu Engineering College. Sometimes, we may post product specific privacy notices or Help Centre materials to explain our products in more detail. </p>
+                                <p>If you have any questions about this Privacy Policy, please feel free to contact us through our website or write to us </p>
+                                <p>Information we collect and how we use it for our Kongu Engineering College.</p>
+    
+                            </div>
+                            <div class="col-md-12" >
+                                <h5  class="heading">Changes to our Privacy Policy </h5>
+                                <p> Kongu Engineering College reserves the entire right to modify/amend/remove this privacy statement anytime and without any reason. Nothing contained herein creates or is intended to create a contract/agreement between Kongu Engineering College and any user visiting the Kongu Engineering College website or providing identifying information of any kind.</p>
+                            </div>
+    
+                            <div class="col-md-12" >
+                                <h5  class="heading">DND Policy </h5>
+                                <p> If you wish to stop any further sms/email alerts/contacts from our side, all you need to do is to send an email:- registrar@kongu.ac.in  with your mobile numbers and you will be excluded from the alerts list.</p>
+                            </div>
+                            <div class="col-md-12" >
+                                <h5  class="heading">Contact </h5>
+                                <p> Email:nireshn.19it@kongu.edu</p>
+                                <p><a href="#" class="btn btn-info" role="button">Online Fee Payment</a></p>
+                            </div>
+     
+            
+            </div>
+        </div>
+     
+    
+
+
+
+
+           <footer>
+  
+            <div class="container-fluid "><div class="row "><div class="col-md-12 border-top text-center p-3 m-3">Designed and Maintained by NIRESH N (19ITR054)</div>
+              
+            </div></div>
+          </footer>
+          
+          
+               <!--nav js-->
+               <script>
+                $( document ).ready( function () {
+                    $( '.dropdown-menu a.dropdown-toggle' ).on( 'click', function ( e ) {
+                        var $el = $( this );
+                        $el.toggleClass('active-dropdown');
+                        var $parent = $( this ).offsetParent( ".dropdown-menu" );
+                        if ( !$( this ).next().hasClass( 'show' ) ) {
+                            $( this ).parents( '.dropdown-menu' ).first().find( '.show' ).removeClass( "show" );
+                        }
+                        var $subMenu = $( this ).next( ".dropdown-menu" );
+                        $subMenu.toggleClass( 'show' );
+                        
+                        $( this ).parent( "li" ).toggleClass( 'show' );
+                
+                        $( this ).parents( 'li.nav-item.dropdown.show' ).on( 'hidden.bs.dropdown', function ( e ) {
+                            $( '.dropdown-menu .show' ).removeClass( "show" );
+                            $el.removeClass('active-dropdown');
+                        } );
+                        
+                         if ( !$parent.parent().hasClass( 'navbar-nav' ) ) {
+                            $el.next().css( { "top": $el[0].offsetTop, "left": $parent.outerWidth() - 4 } );
+                        }
+                
+                        return false;
+                    } );
+                } );
+                </script>
+           
+    
+</body>
+</html>
